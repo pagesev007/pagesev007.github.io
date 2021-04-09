@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/arial.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BEBAS';
+    src: url('../fonts/BEBAS.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
