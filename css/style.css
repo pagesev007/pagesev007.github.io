@@ -1346,7 +1346,10 @@
   }
 }
 
-
+.container h4{
+  font-size: 18px;
+  margin: 0 0 30px;
+}
 
 
 .home-section1 .mouse {
