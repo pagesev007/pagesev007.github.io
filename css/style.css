@@ -1715,7 +1715,7 @@
   top: 0;
   width: 450px;
   height: 100%;
-  background: #0089cdd0;
+  background: #0089cdd0 center right no-repeat;
   padding: 30px 50px;
   display: flex;
   flex-direction: column;
@@ -1732,7 +1732,7 @@
 @media (max-width: 1440px) {
   .home-section3-top .swiper-slide .item .mask {
     padding: 20px 30px;
-    width: 30px;
+    width: 300px;
   }
 }
 @media (max-width: 991px) {
@@ -1741,6 +1741,7 @@
     width: 100%;
     height: auto;
     padding: 20px;
+    background: #0089cd
   }
 }
 .home-section3-top .swiper-slide .item .mask h4 {
