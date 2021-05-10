@@ -1715,7 +1715,7 @@
   top: 0;
   width: 450px;
   height: 100%;
-  background: #0089cd center right no-repeat;
+  background: #0089cdd0;
   padding: 30px 50px;
   display: flex;
   flex-direction: column;
@@ -1732,7 +1732,7 @@
 @media (max-width: 1440px) {
   .home-section3-top .swiper-slide .item .mask {
     padding: 20px 30px;
-    width: 300px;
+    width: 30px;
   }
 }
 @media (max-width: 991px) {
