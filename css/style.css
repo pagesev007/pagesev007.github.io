@@ -1741,7 +1741,7 @@
     width: 100%;
     height: auto;
     padding: 20px;
-    background: #0089cdd0
+    background: #0089cd
   }
 }
 .home-section3-top .swiper-slide .item .mask h4 {
@@ -1970,13 +1970,13 @@
 @media (max-width: 767px) {
   .home-section4 .flexbox .rightbox .head {
     padding: 30px;
-    background: #0089cdd0
+    background: #0089cd
   }
 }
 @media (max-width: 575px) {
   .home-section4 .flexbox .rightbox .head {
     padding: 15px;
-    background: #0089cdd0
+    background: #0089cd
   }
 }
 .home-section4 .flexbox .rightbox .head h2 {
