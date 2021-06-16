@@ -163,7 +163,7 @@
                   <div class="item">
                     <h4><span>分部地址：</span></h4>
                     <ul>
-                      <li><span class="tit">电话：</span><span class="phone">+8610-51077219</span></li>
+                      <li><span class="tit">电话：</span><span class="phone">17538936080</span></li>
                       <li><span class="tit">邮箱：</span>qingpu@nowogen.com</li>
                       <li><span class="tit">地址：</span>河南省新乡市高新区新乡氢能产业园15号</li>
                     </ul>
@@ -193,8 +193,6 @@
         </div>
       </div>
     </div>
-
-   
 
   <div class="fixdright">
     <div class="lt">
@@ -267,43 +265,43 @@
 		    });
 </script>
 
-  <script type="text/javascript" src="http://api.map.baidu.com/api?v=3.0&ak=FozSADB7abfFbsVwK2sSqrRZrGzVmUka"></script>
-  <link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css" />
-  <script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
-  
-  <script type="text/javascript">
-    // 百度地图API功能
-    var map = new BMap.Map('map');
-    var poi = new BMap.Point(116.378969,40.041906);
-    map.centerAndZoom(poi, 16);
-    map.enableScrollWheelZoom();
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=3.0&ak=FozSADB7abfFbsVwK2sSqrRZrGzVmUka"></script>
+<link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css" />
+<script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
 
-    var content = '<div style="margin:0;line-height:20px;padding:2px;font-size:14px;">' +
-                    '<img src="/Public/Home/default/images/home/logo.png" alt="" style="width:100%;margin:5px 0 15px;/*float:right;width:100px;height:100px;margin-left:3px;*/zoom:1;overflow:hidden;object-fit: contain;"/>' +
-                    '地址：北京市海淀区黑泉路8号宝盛广场D座4003<br/>电话：010-51077219' +
-                  '</div>';
+<script type="text/javascript">
+  // 百度地图API功能
+  var map = new BMap.Map('map');
+  var poi = new BMap.Point(116.378969,40.041906);
+  map.centerAndZoom(poi, 16);
+  map.enableScrollWheelZoom();
 
-    //创建检索信息窗口对象
-    var searchInfoWindow = null;
-    searchInfoWindow = new BMapLib.SearchInfoWindow(map, content, {
-      title  : "北京氢璞创能科技有限公司",      //标题
-      width  : 290,             //宽度
-      //height : 105,              //高度
-      panel  : "panel",         //检索结果面板
-      enableAutoPan : true,     //自动平移
-      searchTypes   :[
-        BMAPLIB_TAB_SEARCH,   //周边检索
-        BMAPLIB_TAB_TO_HERE,  //到这里去
-        BMAPLIB_TAB_FROM_HERE //从这里出发
-      ]
-    });
-    var marker = new BMap.Marker(poi); //创建marker对象
-    marker.enableDragging(); //marker可拖拽
-    marker.addEventListener("click", function(e){
-      searchInfoWindow.open(marker);
-    })
-    map.addOverlay(marker); //在地图中添加marker
-  </script>
+  var content = '<div style="margin:0;line-height:20px;padding:2px;font-size:14px;">' +
+                  '<img src="/Public/Home/default/images/home/logo.png" alt="" style="width:100%;margin:5px 0 15px;/*float:right;width:100px;height:100px;margin-left:3px;*/zoom:1;overflow:hidden;object-fit: contain;"/>' +
+                  '地址：北京市海淀区黑泉路8号宝盛广场D座4003<br/>电话：010-51077219' +
+                '</div>';
+
+  //创建检索信息窗口对象
+  var searchInfoWindow = null;
+  searchInfoWindow = new BMapLib.SearchInfoWindow(map, content, {
+    title  : "北京氢璞创能科技有限公司",      //标题
+    width  : 290,             //宽度
+    //height : 105,              //高度
+    panel  : "panel",         //检索结果面板
+    enableAutoPan : true,     //自动平移
+    searchTypes   :[
+      BMAPLIB_TAB_SEARCH,   //周边检索
+      BMAPLIB_TAB_TO_HERE,  //到这里去
+      BMAPLIB_TAB_FROM_HERE //从这里出发
+    ]
+  });
+  var marker = new BMap.Marker(poi); //创建marker对象
+  marker.enableDragging(); //marker可拖拽
+  marker.addEventListener("click", function(e){
+    searchInfoWindow.open(marker);
+  })
+  map.addOverlay(marker); //在地图中添加marker
+</script>
 
 </body>
 </html>
