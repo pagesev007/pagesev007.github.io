@@ -51,6 +51,7 @@
     opacity: 0;
   }
 }
+
 .resetStyle {
   font-family: "Micsoft YaHei";
   color: #333;
@@ -229,7 +230,7 @@
 
   width: 5px;
   height: 100%;
-  background: #ffffff;
+  background: #0087cd;
 }
 @media (max-width: 575px) {
   .home-header:before {
@@ -261,7 +262,7 @@
   display: flex;
   align-items: center;
   height: 100%;
-  background: #fff;
+  background: #0087cd;
 }
 /* @media (max-width: 1710px) {
   .home-header .logo {
@@ -289,17 +290,17 @@
   top: 0;
   width: 1000vh;
   height: 100%;
-  background: #fff;
+  background: #0087cd;
 }
 .home-header .logo h1 {
   position: relative;
   z-index: 1;
-  width: 250px;
+  width: 200px;
   margin: 0;
 }
 @media (max-width: 1440px) {
   .home-header .logo h1 {
-    width: 250px;
+    width: 200px;
   }
 }
 @media (max-width: 767px) {
@@ -1741,7 +1742,7 @@
     width: 100%;
     height: auto;
     padding: 20px;
-    background: #0089cd
+    background: #0089cdd0
   }
 }
 .home-section3-top .swiper-slide .item .mask h4 {
@@ -1970,13 +1971,13 @@
 @media (max-width: 767px) {
   .home-section4 .flexbox .rightbox .head {
     padding: 30px;
-    background: #0089cd
+    background: #0089cdd0
   }
 }
 @media (max-width: 575px) {
   .home-section4 .flexbox .rightbox .head {
     padding: 15px;
-    background: #0089cd
+    background: #0089cdd0
   }
 }
 .home-section4 .flexbox .rightbox .head h2 {
