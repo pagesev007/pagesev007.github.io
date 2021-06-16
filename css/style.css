@@ -3079,7 +3079,7 @@
 }
 .news-section1 .swiper-slide .mask.text-black h2,
 .news-section1 .swiper-slide .mask.text-black .banner-text {
-  color: #333;
+  color: #fff;
 }
 @media (max-width: 767px) {
   .news-section1 .swiper-slide .mask.text-black h2,
