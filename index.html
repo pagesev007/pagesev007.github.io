@@ -603,5 +603,18 @@
 						}
 		    });
 </script>
+
+<script language=javascript1.2>
+  function showsubmenu(sid){
+  whichEl = eval('home-header' + sid);
+  if (whichEl.style.display == 'none'){
+  eval("home-header" + sid + ".style.display='';");
+  }
+  else{
+  eval("home-header" + sid + ".style.display='none';");
+  }
+  }
+  </script>
+
 </body>
 </html>
